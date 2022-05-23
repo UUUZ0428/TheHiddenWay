@@ -56,7 +56,7 @@ public class DialogueTrigger : MonoBehaviour
             print("camSwitcher not initialized");
         }
 
-        DialogueManager.EndConversation();
+        //DialogueManager.EndConversation();
         
     }
 

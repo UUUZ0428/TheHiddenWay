@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -13,6 +14,10 @@ public class DialogueManager : MonoBehaviour
     private Animator anim;
     private CamSwitcher camSwitcher;
     //private DialogueTrigger trigger;
+
+
+    [SerializeField] public float typingSpeed = 0.04f;
+    private Coroutine displayLineCoroutine;
 
     private void Awake()
     {
@@ -55,7 +60,12 @@ public class DialogueManager : MonoBehaviour
         }
 
         speakerName.text = currentConv.GetLineByIndex(currentIndex).speaker.GetName();
-        dialogue.text = currentConv.GetLineByIndex(currentIndex).dialogue;
+        //dialogue.text = currentConv.GetLineByIndex(currentIndex).dialogue;
+        if(displayLineCoroutine != null)
+        {
+            StopCoroutine(displayLineCoroutine);
+        }
+        displayLineCoroutine = StartCoroutine(showText(currentConv.GetLineByIndex(currentIndex).dialogue));
         speakerSprite.sprite = currentConv.GetLineByIndex(currentIndex).speaker.GetSprite();
         currentIndex++;
 
@@ -68,5 +78,18 @@ public class DialogueManager : MonoBehaviour
     {
         instance.anim.SetBool("isOpen", false);
         Cursor.visible = false;
+    }
+
+    private IEnumerator showText(string line)
+    {
+        //empty the dialogue text
+        dialogue.text = "";
+
+        //display each letter one at a time
+        foreach (char letter in line.ToCharArray())
+        {
+            dialogue.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
     }
 }
