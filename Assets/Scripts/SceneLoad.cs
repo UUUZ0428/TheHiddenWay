@@ -8,7 +8,7 @@ using UnityEngine.Events;
 /// </summary>
 public class SceneLoad : MonoBehaviour
 {
-    public SpawnPlayer spawnPlayer;
+    //public SpawnPlayer spawnPlayer;
     public static int levelCounter = 0;
     UnityEvent m_MyEvent = new UnityEvent();
 
@@ -20,7 +20,8 @@ public class SceneLoad : MonoBehaviour
         {
             BackToMainMenu();
         }
-        
+        **/
+
         //make cursor visible while the player is pressing left alt
         if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
@@ -32,7 +33,7 @@ public class SceneLoad : MonoBehaviour
             Cursor.visible = false;
             print("alt key was released");
         }
-        */
+        
 
     }
 

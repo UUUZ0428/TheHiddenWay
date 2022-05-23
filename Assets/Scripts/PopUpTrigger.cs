@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NextLevelTrigger : MonoBehaviour
+public class PopUpTrigger : MonoBehaviour
 {
     //private static NextLevelTrigger instance;
     public Animator anim;
-    private Color m_oldColor = Color.white;
+    GameObject guide;
 
-    /**
-    public void Awake()
+
+
+
+    void Start()
     {
+        /**
         anim.SetBool("isOpen", true);
         Cursor.visible = true;
         //anim = GetComponent<Animator>();
@@ -24,9 +27,10 @@ public class NextLevelTrigger : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        **/
         
     }
-    **/
+    
 
     public void appear()
     {
@@ -39,26 +43,16 @@ public class NextLevelTrigger : MonoBehaviour
         anim.SetBool("isOpen", false);
         Cursor.visible = false;
     }
-    /**
-    void OnTriggerEnter(Collider other)
+
+    public void disableGuide()
     {
-        Renderer render = GetComponent<Renderer>();
-        render.material.color = Color.green;
-
-        anim.SetBool("isOpen", true);
-        Cursor.visible = true;
-        Debug.Log("trigger");
-
+        
+        guide.SetActive(false);
     }
 
-    void OnTriggerExit(Collider other)
+    public void enableGuide()
     {
-        Renderer render = GetComponent<Renderer>();
-        render.material.color = m_oldColor;
-
-        anim.SetBool("isOpen", false);
-        Cursor.visible = false;
-
+        guide.SetActive(true);
     }
-    **/
+
 }
