@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Conv3
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: 'Hello?
 
 '
-  - speaker: {fileID: 11400000, guid: cd50904bff16fb445b89006d97e77744, type: 2}
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
     dialogue: 'You can see me?
 
 '
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: '... ...?
 
 '
-  - speaker: {fileID: 11400000, guid: cd50904bff16fb445b89006d97e77744, type: 2}
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
     dialogue: "Interesting. I haven\u2019t spoken to a mortal in a long time.\r\n\n"
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: 'Hmmm...Are you a cosplayer?
 
 '
@@ -35,14 +35,14 @@ MonoBehaviour:
     dialogue: " Let it be known that I, the god of the Mo Temple, guardian of the
       gate of immortality, have been protecting this temple and residents on this
       land for hundreds of years. \r\n\n"
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "\u2026 (shocked)\r"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
     dialogue: " Hahaha. No pressure, I don\u2019t want to make you bored like my
       colleagues. Just calling me Xuan is fine. \r\n"
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: " \u2026\n"
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "Anyways, do you happen to know my grandma? She told me to visit some
       of her old friends here. \r\n"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
@@ -51,9 +51,9 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
     dialogue: " Poor mortal coil, who can live only for a few decades with endless
       sufferings. \r\n"
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "\u2026\r\n"
-  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "That\u2019s sad, I heard this place is going to be taken down and
       replaced by a new shopping mall. I wish I\u2019ve visited here earlier\r\n"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}

@@ -5,6 +5,8 @@ using UnityEngine;
 public class FlameAnimation : MonoBehaviour
 {
     public float Speed = 1f;
+    public float StartPos;
+
 
     //Direction to travel
     public Vector3 Direction = Vector3.zero;

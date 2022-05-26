@@ -5,6 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Conversation conv;
+    public int count = 0;
     public bool isTriggered; 
     private CamSwitcher camSwitcher;
     private Color m_oldColor = Color.white;
@@ -37,6 +38,7 @@ public class DialogueTrigger : MonoBehaviour
             //m_Rigidbody.constraints = RigidbodyConstraints.FreezePosition;
             DialogueManager.StartConversation(conv, camSwitcher);
             isTriggered = true;
+            count++;
 
         }
         

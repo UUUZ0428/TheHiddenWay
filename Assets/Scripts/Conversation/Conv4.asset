@@ -16,5 +16,9 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
     dialogue: "A line of characters is engraved on the bottom right\u2026\r\n"
   - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
-    dialogue: "It reads: \u2018Tao gives birth to one, one gives birth to two, two
-      gives birth to three, and three gives birth to everything. \u2019\r\n\n"
+    dialogue: "It reads: \u2018The Dao produces the One. The One turns into the two.
+      The Two gives rise to the Three. The Three brings forth the myriad of things.
+      \u2019\r\n\n"
+  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+    dialogue: "(continues) \u2018The myriad things contains Yin and Ynag as vital
+      forces, which achieve harmony through their interactions \u2019\r\n\n"
