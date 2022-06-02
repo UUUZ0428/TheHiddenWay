@@ -12,6 +12,13 @@ public class SceneLoad : MonoBehaviour
     public static int levelCounter = 0;
     UnityEvent m_MyEvent = new UnityEvent();
 
+    GameObject quitMenu;
+
+    void start()
+    {
+        //quitMenu = GameObject.FindGameObjectWithTag("Quit");
+        //quitMenu.SetActive(false);
+    }
     //quit the game when player press esc on keyboard
     void Update()
     {
@@ -33,8 +40,6 @@ public class SceneLoad : MonoBehaviour
             Cursor.visible = false;
             print("alt key was released");
         }
-        
-
     }
 
     public void StartGame()

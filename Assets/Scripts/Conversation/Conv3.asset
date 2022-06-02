@@ -28,6 +28,8 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
     dialogue: "Interesting. I haven\u2019t spoken to a mortal in a long time.\r\n\n"
   - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
+    dialogue: (Finally, someone is listening to me. )
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: 'Hmmm...Are you a cosplayer?
 
 '
@@ -38,23 +40,43 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "\u2026 (shocked)\r"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
-    dialogue: " Hahaha. No pressure, I don\u2019t want to make you bored like my
-      colleagues. Just calling me Xuan is fine. \r\n"
+    dialogue: "Hahaha. No pressure, I think you\u2019ve seen my colleagues. "
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: "We\u2019re all shards of the guardian god. Just calling me Xuan is
+      fine. \r\n"
   - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: " \u2026\n"
   - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "Anyways, do you happen to know my grandma? She told me to visit some
       of her old friends here. \r\n"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
-    dialogue: "Well, there were once several Daoist priests living in this place,
-      but now everyone has left, unfortunately. \r\n"
+    dialogue: "Well, yes\u2026 \r\n"
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: 'There were once several Daoist priests and a little girl living in
+      this place. '
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: "Sweet memories, in an age of cruelty.\r"
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: "Now everyone has left, unfortunately. \r\n"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
     dialogue: " Poor mortal coil, who can live only for a few decades with endless
       sufferings. \r\n"
   - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
-    dialogue: "\u2026\r\n"
-  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
-    dialogue: "That\u2019s sad, I heard this place is going to be taken down and
-      replaced by a new shopping mall. I wish I\u2019ve visited here earlier\r\n"
+    dialogue: 'I heard this place is going to be taken down and replaced by a new
+      shopping mall. '
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
-    dialogue: " Better late than never. \r\n"
+    dialogue: "Thanks for letting me know. Probably I shall start another journey\u2026\r\n"
+  - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
+    dialogue: 'I wish I''d visited here earlier.
+
+'
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: "Better late than never. \r\n"
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: "If you are the little girl\u2019s friend, tell her that we appreciate
+      all the things that she has done for this temple. \r\n"
+  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+    dialogue: 'Me: (Time to leave. )'
+  - speaker: {fileID: 11400000, guid: e837455c08d098c419464faea8dfee3f, type: 2}
+    dialogue: '***The quit function is visible now, you can keep exploring, or go
+      back to the main menu***'

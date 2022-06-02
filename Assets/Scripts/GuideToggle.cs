@@ -18,7 +18,7 @@ public class GuideToggle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             Debug.Log("show guide");
-            isShowing = !isShowing;
+            isShowing = true;
             guide.SetActive(isShowing);
         }
 

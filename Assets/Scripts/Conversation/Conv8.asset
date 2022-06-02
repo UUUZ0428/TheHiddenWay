@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
-    dialogue: "Pay 50 RMB to make a wish. \rWechat pay, Ali pay, Union pay are all
-      accepted.\r\n\n"
+    dialogue: "Pay 50 RMB to make a wish. \n\n"
+  - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
+    dialogue: 'Wechat pay, Ali pay, Union pay are all accepted.
+
+'
   - speaker: {fileID: 11400000, guid: 8089aacb2357b8b46a5f87f4b7bfa7ab, type: 2}
     dialogue: "What? That\u2019s so expensive. \r\n\n\n"
   - speaker: {fileID: 11400000, guid: 8c2532fb3e3a938468754429a71f670e, type: 2}
